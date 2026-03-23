@@ -1,15 +1,21 @@
- body {
-    background-color: black;
-    color: yellow;
- }
-
 
 #titulo_principal{
             background-color: chocolate;
             color: white
         }
             
-        .titulo_secundario{
+.titulo_secundario{
             background-color: darkolivegreen;
             color: white;
         }
+
+p {
+    background-color: white;
+    color: black;
+}
+
+form {
+    background-color: white;
+    color: black;
+}
+
