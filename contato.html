@@ -49,6 +49,61 @@
         <input type="search" name="pesquisa" id="pesquisa" 
         ><br><br>
 
+        <label for="nivel">Escolha o nivel</label>
+        <input type="range" max="10" min="1" id="nivel" name="nivel">
+
+        <select id="lista suspensa" name="lista">
+            <optgroup label="teste legenda combobox">
+                <option value="teste1">teste1</option>
+                <option value="teste2">teste2</option>
+                <option value="teste3">teste3</option>
+            </optgroup>
+
+            <optgroup label="teste legenda combobox 2">
+                <option value="teste4">teste4</option>
+                <option value="teste5">teste5</option>
+                <option value="teste6">teste6</option>
+            </optgroup>
+        </select>
+
+        <fieldset>
+            <legend> desenvolvimento para internet</legend>
+            <label><input type="checkbox" name="php" value="php">PHP</label>
+            <label><input type="checkbox" name="html5" value="html5">html5</label>
+            <label><input type="checkbox" name="css" value="css">CSS</label>
+            <label><input type="checkbox" name="js" value="js">Js</label>
+        </fieldset>
+
+        <!-- Datalist possives ganhadores da copo do mundo 2026-->
+        <input type="text" id="busca_datalist" list="paises">
+        <datalist id="paises">
+            <option>Brasil</option>
+            <option>França</option>
+            <option>Argentina</option>
+            <option>Alemanha</option>
+            <option>Inglaterra</option>
+            <option>Espanha</option>
+        </datalist>
+        
+        <audio controls>
+            <source src="audio/musica.mp3" type="audio/mp3">
+            Navegador não suportado pelo player online.
+        </audio>
+
+        <video controls autoplay loop>
+            <source src="video/videoteste.mp4" type="video/mp4">
+            Navegador não suportado pelo player online.
+        </video>
+
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/E4WlUXrJgy4?si=jtZ85fl9fpu30zVh" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; 
+        web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>
+
         <button type="submit">Enviar</button>
 
         </form>
