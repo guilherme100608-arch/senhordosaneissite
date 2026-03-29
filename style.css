@@ -1,32 +1,10 @@
-
-#titulo_principal{
-            background-color: chocolate;
-            color: white
-        }
-            
-.titulo_secundario{
-            background-color: darkolivegreen;
-            color: white;
-        }
-
-p {
-    background-color: white;
-    color: black;
+#titulo_principal {
+    background-color: chocolate;
+    color: white
 }
 
-form {
-    background-color: white;
-    color: black;
+.titulo_secundario {
+    background-color: darkolivegreen;
+    color: white
 }
 
-.link {
-    color: white;
-}
-
-#layout {
-    display: flex;
-}
-
-.rodape {
-    text-align: center;
-}
