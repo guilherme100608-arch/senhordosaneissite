@@ -8,3 +8,9 @@
     color: white
 }
 
+label[for=mensagem] {
+    display: block;
+    margin-bottom: 6px;
+}
+
+
