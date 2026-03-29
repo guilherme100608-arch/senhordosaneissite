@@ -19,3 +19,14 @@ form {
     color: black;
 }
 
+.link {
+    color: white;
+}
+
+#layout {
+    display: flex;
+}
+
+.rodape {
+    text-align: center;
+}
