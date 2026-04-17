@@ -14,6 +14,9 @@ label[for=mensagem] {
 }
 
 body{
-    background-color: Rgb(0, 0, 0);
-    color
+    /*Topografia CSS*/
+    background-color: rgb(0,0, 0); /*Cor do fundo*/
+    color: Rgb(255, 255, 255); /*Cor da fonte*/
+    font-family: "Bitcount Grid Double", sans-serif; /*fonte*/
+    font-size: 16px;
 }
